@@ -6,7 +6,7 @@
 Summary:	%{_pearname} - Mbox PHP class to Unix MBOX parsing and using
 Name:		php-pear-%{_pearname}
 Version:	0.5.1
-Release:	%mkrel 1
+Release:	%mkrel 2
 License:	PHP License
 Group:		Development/PHP
 Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tar.bz2
@@ -39,6 +39,8 @@ done
 
 # strip away annoying ^M
 find -type f | grep -v ".gif" | grep -v ".png" | grep -v ".jpg" | xargs dos2unix -U
+
+perl -pi -e "s|PHPUnit2|PHPUnit|g" %{_pearname}-%{version}/tests/*
 
 %install
 rm -rf %{buildroot}
