@@ -6,7 +6,7 @@
 Summary:	%{_pearname} - Mbox PHP class to Unix MBOX parsing and using
 Name:		php-pear-%{_pearname}
 Version:	0.5.1
-Release:	%mkrel 2
+Release:	%mkrel 3
 License:	PHP License
 Group:		Development/PHP
 Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tar.bz2
@@ -16,7 +16,7 @@ Requires(preun): php-pear
 Requires:	php-pear
 BuildArch:	noarch
 BuildRequires:	dos2unix
-BuildRoot:	%{_tmppath}/%{name}-%{version}-buildroot
+BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 
 %description
 It can split messages inside a Mbox, return the number of messages,
