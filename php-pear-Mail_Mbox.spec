@@ -4,7 +4,7 @@
 
 Name:		php-pear-%{upstream_name}
 Version:	0.5.1
-Release:	%mkrel 5
+Release:	%mkrel 6
 Summary:	Mbox PHP class to Unix MBOX parsing and using
 License:	PHP License
 Group:		Development/PHP
