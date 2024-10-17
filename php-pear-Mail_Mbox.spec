@@ -8,7 +8,7 @@ Release:	10
 Summary:	Mbox PHP class to Unix MBOX parsing and using
 License:	PHP License
 Group:		Development/PHP
-URL:		http://pear.php.net/package/Mail_Mbox/
+URL:		https://pear.php.net/package/Mail_Mbox/
 Source0:	http://download.pear.php.net/package/%{upstream_name}-%{version}.tar.bz2
 Requires(post): php-pear
 Requires(preun): php-pear
